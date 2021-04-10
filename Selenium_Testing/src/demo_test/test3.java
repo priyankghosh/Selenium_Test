@@ -65,6 +65,7 @@ public class test3
         
         System.out.println("\nWeb tesing for page title.....\n\n");
         
+        
         WebDriver driver1 = new EdgeDriver();
 		driver1.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 		driver1.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
