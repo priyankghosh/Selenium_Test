@@ -27,7 +27,7 @@ public class testing2
 		
 		//Navigating to the website
 		driver.navigate().to("https://www.thesparksfoundationsingapore.org/");
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 		
 		//Maximizing the window size
 		driver.manage().window().maximize();  
@@ -37,14 +37,13 @@ public class testing2
 		driver.findElement(By.partialLinkText("GRIP")).click();  
 		Thread.sleep(5000);
         
-        //driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/nav/div[2]/nav/ul/li[6]/a"));
-		
+        	
 		//Clicking on About Us link		
         driver.findElement(By.cssSelector("#link-effect-3 > ul > li:nth-child(6) > a")).click();
 		
 		//driver.findElement(By.className("col-md-6 navbar-brand")).click();
 		
-		Thread.sleep(10000);
+		Thread.sleep(5000);
         driver.close();
 		
 		
