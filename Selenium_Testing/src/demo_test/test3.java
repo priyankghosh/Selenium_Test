@@ -95,8 +95,7 @@ public class test3
 			//System.out.println("\nThe Url of the page is : "+actualUrl);
 			System.out.println("\nVerification failed !!!");
 		}
-		
-				
+						
 		Thread.sleep(7000);
         driver1.close();
 		
